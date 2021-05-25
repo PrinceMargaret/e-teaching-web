@@ -86,9 +86,10 @@ require_once("PaytmKit/lib/encdec_paytm.php");
                         <input type="hidden" name="CHECKSUMHASH" value="<?php echo $paytmChecksum ?>">
 
                         <input class="btn btn-primary" type="submit" value="Enroll Now"/>
-                    </form>
+                    
                    
                 </div>
+                </form>
                 <div class="col-sm-6 col-md-4 item" style="text-align: center; margin-bottom: 20px;"><a href="#"><img class="img-fluid" src="static/django.jpg"></a>
                     <h3 class="name">Django</h3>
                     <p class="description">Price : 100 /-</p><a class="action" href="#"></a><button class="btn btn-primary" type="button">Enroll Now</button>
