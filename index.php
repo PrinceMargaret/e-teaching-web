@@ -97,7 +97,7 @@ require_once("PaytmKit/lib/encdec_paytm.php");
                 <div class="col-sm-6 col-md-4 item" style="text-align: center; margin-bottom: 20px;"><a href="#"><img class="img-fluid" src="static/django.jpg"></a>
                     <h3 class="name">Django</h3>
                     <p class="description">Price : 100 /-</p><a class="action" href="#"></a>
-                    <form method='post' action='<?php echo $transactionURL; ?>' name='f1'>
+                    <form method='post' action='<?php echo $transactionURL; ?>' name='f2'>
                         <?php
                             foreach($paytmParams as $name => $value) {
                                 echo '<input type="hidden" name="' . $name .'" value="' . $value . '">';
@@ -115,7 +115,7 @@ require_once("PaytmKit/lib/encdec_paytm.php");
                 <div class="col-sm-6 col-md-4 item" style="text-align: center;margin-bottom: 20px;"><a href="#"><img class="img-fluid" src="static/machinelearning.jpeg"></a>
                     <h3 class="name">Machine Learning</h3>
                     <p class="description">Price : 100 /-</p><a class="action" href="#"></a>
-                    <form method='post' action='<?php echo $transactionURL; ?>' name='f1'>
+                    <form method='post' action='<?php echo $transactionURL; ?>' name='f3'>
                         <?php
                             foreach($paytmParams as $name => $value) {
                                 echo '<input type="hidden" name="' . $name .'" value="' . $value . '">';
@@ -132,7 +132,7 @@ require_once("PaytmKit/lib/encdec_paytm.php");
                 <div class="col-sm-6 col-md-4 item" style="text-align: center; margin-bottom: 20px;"><a href="#"><img class="img-fluid" src="static/html.jpg"></a>
                     <h3 class="name">HTML</h3>
                     <p class="description">Price : 100 /-</p>
-                    <form method='post' action='<?php echo $transactionURL; ?>' name='f1'>
+                    <form method='post' action='<?php echo $transactionURL; ?>' name='f4'>
                         <?php
                             foreach($paytmParams as $name => $value) {
                                 echo '<input type="hidden" name="' . $name .'" value="' . $value . '">';
@@ -147,7 +147,7 @@ require_once("PaytmKit/lib/encdec_paytm.php");
                 <div class="col-sm-6 col-md-4 item" style="text-align: center; margin-bottom: 20px;"><a href="#"><img class="img-fluid" src="static/css.jpg"></a>
                     <h3 class="name">CSS</h3>
                     <p class="description">Price : 100 /-</p><a class="action" href="#"></a>
-                    <form method='post' action='<?php echo $transactionURL; ?>' name='f1'>
+                    <form method='post' action='<?php echo $transactionURL; ?>' name='f5'>
                         <?php
                             foreach($paytmParams as $name => $value) {
                                 echo '<input type="hidden" name="' . $name .'" value="' . $value . '">';
@@ -162,7 +162,7 @@ require_once("PaytmKit/lib/encdec_paytm.php");
                 <div class="col-sm-6 col-md-4 item" style="text-align: center; margin-bottom: 20px;"><a href="#"><img class="img-fluid" src="static/javascript.jpg"></a>
                     <h3 class="name">Javascript</h3>
                     <p class="description">Price : 100 /-</p><a class="action" href="#"></a>
-                    <form method='post' action='<?php echo $transactionURL; ?>' name='f1'>
+                    <form method='post' action='<?php echo $transactionURL; ?>' name='f6'>
                         <?php
                             foreach($paytmParams as $name => $value) {
                                 echo '<input type="hidden" name="' . $name .'" value="' . $value . '">';
