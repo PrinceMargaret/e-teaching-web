@@ -70,12 +70,14 @@ require_once("PaytmKit/lib/encdec_paytm.php");
                 <p class="text-center">Learn Awsome Course on Real Time Mentor's Instructions</p>
             </div>
             <div class="row articles">
-                
-                <div class="col-sm-6 col-md-4 item" style="text-align: center; margin-bottom: 20px;"><a href="#"><img class="img-fluid" src="static/python.png"></a>
+            <form method='post' action='<?php echo $transactionURL; ?>' name='f1'>
+                <div class="col-sm-6 col-md-4 item" style="text-align: center; margin-bottom: 20px;">
+                <a href="#">
+                    <img class="img-fluid" src="static/python.png"></a>
                     <h3 class="name">Python</h3>
                     <p class="description"></p>
                     <p class="description">Price : 100 /-</p><a class="action" href="#"></a>
-                    <form method='post' action='<?php echo $transactionURL; ?>' name='f1'>
+                    
                         <?php
                             foreach($paytmParams as $name => $value) {
                                 echo '<input type="hidden" name="' . $name .'" value="' . $value . '">';
@@ -83,7 +85,7 @@ require_once("PaytmKit/lib/encdec_paytm.php");
                         ?>
                         <input type="hidden" name="CHECKSUMHASH" value="<?php echo $paytmChecksum ?>">
 
-                        <input class="btn btn-primary" type="submit" value="Enroll Now"/>
+                        <input class="btn btn-primary" type="submit" value="submit">
                     </form>
                     <!-- <script type="text/javascript">
                         document.f1.submit();
