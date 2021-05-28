@@ -34,7 +34,7 @@
             </div>
         </div>
         <div id="login-box-footer" style="padding:10px 20px;padding-bottom:23px;padding-top:18px;">
-            <p style="margin-bottom:0px;">Don't you have an account?<a id="register-link" href="#">Sign Up!</a></p>
+            <p style="margin-bottom:0px;">Don't you have an account?<a id="register-link" href="signup.php">Sign Up!</a></p>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
