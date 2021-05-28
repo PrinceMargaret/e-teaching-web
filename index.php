@@ -59,7 +59,7 @@ require_once("PaytmKit/lib/encdec_paytm.php");
                     <li class="nav-item"><a class="nav-link active" href="#">Contact Us</a></li>
                    
                 </ul>
-                <span class="navbar-text actions"> <a class="login" href="#">Log In</a><a class="btn btn-green action-button" role="button" href="#">Sign Up</a></span>
+                <span class="navbar-text actions"> <a class="login" href="login.php">Log In</a><a class="btn btn-green action-button" role="button" href="signup.php">Sign Up</a></span>
             </div>
         </div>
     </nav>
